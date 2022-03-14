@@ -1,0 +1,7 @@
+version: '3'
+services:
+  redis:
+    platform: linux/x86_64 #m1 mac 전용 설정
+    image: redis:6.2-alpine
+    ports:
+      - "6379:6379"
